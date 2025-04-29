@@ -1,15 +1,16 @@
 {
   "name": "stripe-webhook-handler",
   "version": "1.0.0",
-  "description": "Handle Stripe Webhooks and send course links",
+  "description": "Handle Stripe webhooks and send course access email",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
+  "license": "MIT",
   "dependencies": {
-    "express": "^4.18.2",
-    "stripe": "^12.11.0",
+    "dotenv": "^16.4.1",
+    "express": "^4.19.2",
     "nodemailer": "^6.9.8",
-    "dotenv": "^16.3.1"
+    "stripe": "^14.6.0"
   }
 }
